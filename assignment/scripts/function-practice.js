@@ -12,18 +12,17 @@ function hello() {
 console.log('Test - should say "Hello World!"', hello());
 
 
-// 2. Function to return an personalized hello, using the `name` argument.
+// 2. Function to return a personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName(name) {
-  return name;
+  return (`Hello, ${name}!`)
 }
 
-let name = (helloName('Brii'));
-console.log(`Hello, ${name}`);
-// console.log(helloName());
-// name ('Brii')
+console.log(helloName(`Brii`));
 
 // Remember to call the function to test
+
+//// DONE
 
 
 // 3. Function to add two numbers together & return the result
