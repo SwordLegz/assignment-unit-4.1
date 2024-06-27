@@ -19,7 +19,7 @@ function helloName(name) {
 }
 
 let name = (helloName('Brii'));
-console.log(`Hello, `, helloName);
+console.log(`Hello, ${name}`);
 // console.log(helloName());
 // name ('Brii')
 
