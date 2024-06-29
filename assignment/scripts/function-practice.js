@@ -67,9 +67,13 @@ console.log(isPositive(-4))
 
 // 6. Write a function to return the last item in an array. If the 
 //    array is empty, return `undefined`.
-function getLast(array) {
 
+let stuff = ['life', 'universe', 42, 37, 'banana bread'];
+
+function getLast(array) {
+  return getLast
 }
+console.log(getLast([2]));
 
 // 7. Write a function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
